@@ -10,7 +10,7 @@ class ShopDetailsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text("Product Details"),centerTitle: true,),
-      body: Padding(padding: EdgeInsetsGeometry.all(20),
+      body: Padding(padding: EdgeInsets.all(20),
       child: SingleChildScrollView(
         child: Column(
           spacing: 20,

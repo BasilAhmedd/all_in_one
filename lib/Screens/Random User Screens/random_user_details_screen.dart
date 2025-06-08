@@ -16,12 +16,12 @@ class RandomUserDetailsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text("User Details"),centerTitle: true,),
-      body: Padding(padding: EdgeInsetsGeometry.all(20),
+      body: Padding(padding: EdgeInsets.all(20),
         child: SingleChildScrollView(
           child: Column(
             spacing: 20,
             children: [
-              ClipRRect(child: Image.network(img),borderRadius: BorderRadiusGeometry.all(Radius.circular(30)),),
+              ClipRRect(child: Image.network(img),borderRadius: BorderRadius.all(Radius.circular(30)),),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
